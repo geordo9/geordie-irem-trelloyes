@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Card(title, content){
+function Card(props){
     return (
-        <div class="Card">
-            <h3>{title}</h3>
-            <p>{content}</p>
+        <div className="Card">
+            <h3>{props.title}</h3>
+            <p>{props.content}</p>
         </div>
     );
 }
